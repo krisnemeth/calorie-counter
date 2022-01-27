@@ -19,6 +19,10 @@ a {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 /* navbar styles */
 .navbar {
@@ -33,6 +37,12 @@ img {
 /* btn styles */
 .btn {
     background-color: var(--color-yellow-1);
+}
+.btn-abt {
+    background-color: var(--color-yellow-2);
+}
+.btn-hlp {
+    background-color: var(--color-orange);
 }
 
 .input-group-text {

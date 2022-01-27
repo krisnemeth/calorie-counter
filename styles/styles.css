@@ -12,3 +12,8 @@ html {
 .navbar {
     background-color: var(--color-green-);
 }
+
+/* footer styles */
+.footer {
+    background-color: var(--color-green-);
+}

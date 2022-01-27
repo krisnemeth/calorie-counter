@@ -3,7 +3,7 @@ function searchFunction() {
     let input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("searchInfo");
     filter = input.value.toUpperCase();
-    table = document.getElementById("players");
+    table = document.getElementById("fruits");
     tr = table.getElementsByTagName("tr");
 
     // Loop through all table rows, and hide those who don't match the search query

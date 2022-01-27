@@ -4,14 +4,37 @@ html {
     --color-yellow-1: #F2AB27;
     --color-yellow-2: #F29422;
     --color-orange: #ED7117;
+
+    
 }
 
+/* heading, link and text colors */
+
+h1 {
+    color: var(--color-yellow-1);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 /* navbar styles */
 .navbar {
     background-color: var(--color-green-);
 }
+
+/* img styles */
+img {
+    border-radius: 5px;
+}
+
+/* btn styles */
+.btn {
+    background-color: var(--color-yellow-1);
+}
+
 
 /* footer styles */
 .footer {

@@ -1,0 +1,14 @@
+/* color variables */
+html {
+    --color-green-: #718E37;
+    --color-yellow-1: #F2AB27;
+    --color-yellow-2: #F29422;
+    --color-orange: #ED7117;
+}
+
+
+
+/* navbar styles */
+.navbar {
+    background-color: var(--color-green-);
+}

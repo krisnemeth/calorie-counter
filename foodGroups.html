@@ -23,14 +23,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Calorie Counter</a>
+          <a class="navbar-brand text-white" href="#">
+            <i class="bi bi-egg-fried"></i>
+            Calorie Counter
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link" href="home.html">Home</a>
-                <a class="nav-link" href="foodGroups.html">Food Groups</a>
+                <a class="nav-link active" href="foodGroups.html">Food Groups</a>
                 <a class="nav-link" href="counter.html">Counter</a>
                 <a class="nav-link" href="aboutCal.html">About</a>
                 <a class="nav-link" href="help.html">Help</a>
@@ -40,10 +43,56 @@
         </div>
     </nav>
 
-    <h1 class="display-1 text-center">FOOD GROUPS</h1>
+    <h1 class="display-5 text-center pt-4 ">FOOD GROUPS</h1>
 
-
-
+    <div class="container px-2 pt-3">
+      <div class="row row-cols-2 row-cols-md-2 g-3 pb-5">
+        <div class="col">
+          <div class="card">
+            <img src="./img/cards-img/fruits.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fruits</h5>
+              <br>
+              <br>
+              <a href="foodItems.html" class="btn text-white w-75">View Items</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/cards-img/nuts.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nuts</h5>
+              <br>
+              <br>
+              <a href="#" class="btn text-white w-75">View Items</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/cards-img/veg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vegetables</h5>
+              <br>
+              <br>
+              <a href="#" class="btn text-white w-75">View Items</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/cards-img/dairy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dairy</h5>
+              <br>
+              <br>
+              <a href="#" class="btn text-white w-75">View Items</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="footer mt-auto py-1 text-white fixed-bottom">
         <div class="row">

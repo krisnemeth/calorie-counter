@@ -8,6 +8,9 @@ function addA(){
 document.getElementById('addB').addEventListener('click', addB);
 
 function addB(){
+    // retrieve local storage
+    // add 65 to local storage
+    // sAVE LOCAL STORAGE
     console.log('btn clicked');
     localStorage.setItem('banana', 65);
 }

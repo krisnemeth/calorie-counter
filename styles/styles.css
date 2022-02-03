@@ -1,14 +1,13 @@
 /* color variables */
+
 html {
     --color-green-: #718E37;
     --color-yellow-1: #F2AB27;
     --color-yellow-2: #F29422;
     --color-orange: #ED7117;
-
-    
 }
 
-/* heading, link and text colors */
+/* heading, link and text colors and sizes */
 
 h1 {
     color: var(--color-yellow-1);
@@ -23,18 +22,38 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+#output {
+    font-size: 3em;
+    border-radius: 5px;
+}
+
 
 /* navbar styles */
+
 .navbar {
     background-color: var(--color-green-);
 }
 
 /* img styles */
+
 img {
     border-radius: 5px;
 }
 
+/* accordion styles */
+
+.accordion-button {
+    background-color: var(--color-yellow-1);
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--color-yellow-1);
+}
+
+
+
+
 /* btn styles */
+
 .btn {
     background-color: var(--color-yellow-1);
 }
@@ -45,11 +64,16 @@ img {
     background-color: var(--color-orange);
 }
 
+.btn-reset {
+    background-color: var(--color-orange);
+}
+
 .input-group-text {
     background-color: var(--color-yellow-1);
 }
 
 /* footer styles */
+
 .footer {
     background-color: var(--color-green-);
 }

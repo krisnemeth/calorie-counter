@@ -1,9 +1,12 @@
-
-
 window.onload = function displayCal(){
-    console.log('btn clicked')
+    console.log('page loaded')
     let apple = Number(localStorage.getItem('apple'));
+    let banana = Number(localStorage.getItem('banana'));
 
-    document.getElementById('output').innerHTML = `${apple}`
+
+    let fruit = 0;
+    fruit = 
+
     
+    document.getElementById('output').innerHTML = `${apple}`;
 }

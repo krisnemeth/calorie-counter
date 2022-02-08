@@ -1,58 +1,74 @@
-document.getElementById('addA').addEventListener('click', addA);
+// document.getElementById('addA').addEventListener('click', addA);
 
-function addA(){
-    console.log('btn clicked');
-    localStorage.setItem('apple', 44);
-}
+// function addA(){
+//     console.log('btn clicked');
+//     localStorage.setItem('apple', 44);
+// }
 
-document.getElementById('addB').addEventListener('click', addB);
+// document.getElementById('addB').addEventListener('click', addB);
 
-function addB(){
-    // retrieve local storage
-    // add 65 to local storage
-    // sAVE LOCAL STORAGE
-    console.log('btn clicked');
-    localStorage.setItem('banana', 65);
-}
+// function addB(){
+//     // retrieve local storage
+//     // add 65 to local storage
+//     // sAVE LOCAL STORAGE
+//     console.log('btn clicked');
+//     localStorage.setItem('banana', 65);
+// }
 
-document.getElementById('addBlck').addEventListener('click', addBlck);
+// document.getElementById('addBlck').addEventListener('click', addBlck);
 
-function addBlck(){
-    console.log('btn clicked');
-    localStorage.setItem('blackberries', 25);
-}
+// function addBlck(){
+//     console.log('btn clicked');
+//     localStorage.setItem('blackberries', 25);
+// }
 
-document.getElementById('addC').addEventListener('click', addC);
+// document.getElementById('addC').addEventListener('click', addC);
 
-function addC(){
-    console.log('btn clicked');
-    localStorage.setItem('cherry', 50);
-}
+// function addC(){
+//     console.log('btn clicked');
+//     localStorage.setItem('cherry', 50);
+// }
 
-document.getElementById('addK').addEventListener('click', addK);
+// document.getElementById('addK').addEventListener('click', addK);
 
-function addK(){
-    console.log('btn clicked');
-    localStorage.setItem('kiwi', 50);
-}
+// function addK(){
+//     console.log('btn clicked');
+//     localStorage.setItem('kiwi', 50);
+// }
 
-document.getElementById('addG').addEventListener('click', addG);
+// document.getElementById('addG').addEventListener('click', addG);
 
-function addG(){
-    console.log('btn clicked');
-    localStorage.setItem('grapes', 62);
-}
+// function addG(){
+//     console.log('btn clicked');
+//     localStorage.setItem('grapes', 62);
+// }
 
-document.getElementById('addO').addEventListener('click', addO);
+// document.getElementById('addO').addEventListener('click', addO);
 
-function addO(){
-    console.log('btn clicked');
-    localStorage.setItem('orange', 30);
-}
+// function addO(){
+//     console.log('btn clicked');
+//     localStorage.setItem('orange', 30);
+// }
 
-document.getElementById('addP').addEventListener('click', addP);
+// document.getElementById('addP').addEventListener('click', addP);
 
-function addP(){
-    console.log('btn clicked');
-    localStorage.setItem('peach', 30);
+// function addP(){
+//     console.log('btn clicked');
+//     localStorage.setItem('peach', 30);
+// }
+
+let fruits = document.getElementsByClassName("addBut");
+
+for (let i = 0; i < fruits.length; i++) {
+	fruits[i].addEventListener('click',function(){
+		// gets data attribute from button clicked on (uses 'this' to identify which one)
+		let attribute = this.getAttribute("data-calories");
+		console.log(attribute);  // displays to console.
+		
+		//will need to change to integer
+        
+		//get localstorage value
+		//add new value to localstorage
+		//store localstorage again.
+	})
 }

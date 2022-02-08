@@ -1,2 +1,9 @@
-// if exists add to it, if doesnt exist create it set it to 0
+// checking if fruits array exists in local storage, and if not, creating it.
 
+if(window.localStorage){
+    if(!localStorage.fruits){
+        localStorage.setItem('fruits', 0);
+    } else {
+        localStorage.getItem('fruits');
+    }
+}

@@ -1,5 +1,4 @@
 
-
 document.getElementById('backBtn').addEventListener('click', goBack);
 
 function goBack(){
@@ -7,12 +6,10 @@ function goBack(){
 }
 
 document.getElementById('counter').addEventListener('click', function(){
-    console.log('button clicked')
     gotoURL('counter.html');
 })
 
 document.getElementById('contact').addEventListener('click', function(){
-    console.log('button clicked')
     gotoURL('contact.html');
 })
 

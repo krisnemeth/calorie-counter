@@ -2,8 +2,6 @@
 
 if(window.localStorage){
     if(!localStorage.fruits){
-        localStorage.setItem('fruits', []);
-    } else {
-        localStorage.getItem('fruits');
+        localStorage.setItem('fruits', 0);
     }
 }

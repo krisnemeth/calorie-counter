@@ -18,8 +18,10 @@ window.onload = function displayCal(){
 
 
 
-// function clearAll(){
-//     localStorage.clear();
-// }
+function reset(){
+    localStorage.setItem('fruits', 0);
 
-// document.getElementById('btn-reset').addEventListener('click', clearAll);
+    document.getElementById('output').innerHTML = localStorage.getItem('fruits')
+}
+
+document.getElementById('btn-reset').addEventListener('click', reset);

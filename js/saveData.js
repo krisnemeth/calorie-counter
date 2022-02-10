@@ -57,24 +57,17 @@
 //     localStorage.setItem('peach', 30);
 // }
 
-let fruits = document.getElementsByClassName("addBut");
+let addButtons = document.getElementsByClassName("addBut");
 
-for (let i = 0; i < fruits.length; i++) {
-	fruits[i].addEventListener('click',function(){
+for (let i = 0; i < addButtons.length; i++) {
+	addButtons[i].addEventListener('click',function(){
 		// gets data attribute from button clicked on (uses 'this' to identify which one)
-		let attribute = this.getAttribute("data-calories");
-		
-		//will need to change to integer
-        attribute = Number(this.getAttribute('data-calories'));
-        console.log(attribute);// displays to console.
+        let attribute = Number(this.getAttribute('data-calories'));
 
 		//get localstorage value
-        let value = localStorage.getItem('fruits');
-        
+        let value = Number(localStorage.getItem('fruits'));
 
 		//add new value to localstorage
-        value = localStorage.setItem('fruits', attribute);
-
-		//store localstorage again.
+        localStorage.setItem('fruits', (value + attribute));
 	})
 }

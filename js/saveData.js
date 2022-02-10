@@ -63,12 +63,18 @@ for (let i = 0; i < fruits.length; i++) {
 	fruits[i].addEventListener('click',function(){
 		// gets data attribute from button clicked on (uses 'this' to identify which one)
 		let attribute = this.getAttribute("data-calories");
-		console.log(attribute);  // displays to console.
 		
 		//will need to change to integer
-        
+        attribute = Number(this.getAttribute('data-calories'));
+        console.log(attribute);// displays to console.
+
 		//get localstorage value
+        let value = localStorage.getItem('fruits');
+        
+
 		//add new value to localstorage
+        value = localStorage.setItem('fruits', attribute);
+
 		//store localstorage again.
 	})
 }
